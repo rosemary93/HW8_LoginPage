@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDF2F8"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/informationLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#01BFAE"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/buttonSignupL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#25D1E8"
+        android:text="@string/sign_up" />
+
+</FrameLayout>

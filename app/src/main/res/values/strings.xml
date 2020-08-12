@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Page</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="correct_login_input">correct username and password</string>
+    <string name="wrong_login_input">username or password is not correct</string>
+</resources>
